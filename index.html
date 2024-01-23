@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>KUNDAN'S PORTFOLIO</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(7, 7, 7);
+            color: white;
+            font-family:'poppins',sans-serif;
+        }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(68, 26, 26);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}nav ul li a{
+    text-decoration: none;
+    color: white;
+}nav ul li a:hover{
+    color: blueviolet;
+    font-size: 1.1rem;
+
+}
+.LEFT{
+    font-size: 1.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:23px 0;
+    margin: 130px;
+
+}
+.first > div{
+    width: 30%;
+}
+.leftsection{
+font-size: 2.2rem;
+}
+.rightsection img{ 
+    width: 100%;
+
+}
+.purple{
+    color: rgb(31, 210, 189);
+}
+.blue{
+    color: rgb(233, 41, 41);
+}
+#element{
+    color: peachpuff;
+}
+/*--------------about------------*/
+body{
+    background-color: #0c0c0c;
+}
+#about{
+    padding: 80px 0;
+    color: rgba(163, 153, 153, 0.99);
+    background-color: black;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+    padding:0 80px ;
+}
+.about-col-2{
+    flex-basis: 60% ;
+    margin-right: 10%;
+padding-right: 80px;}
+    .subtitle{
+        font-size: 60px;
+        font-weight: 600;
+        color: aliceblue;
+    }
+    .tab-title{ 
+         display:flex;
+         margin: 20px 0 50px;
+    }
+    .tab-link{
+        margin-right: 50px;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        position: relative;
+    }
+    .tab-link::after{
+        content:'' ;
+        width: 0;
+        height: 3px;
+        background: #ff004f;
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        transition: 0.5s;
+    }
+    .tab-link.active-link::after{
+        width: 50%;
+
+    }
+    * {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+
+input[type=text], select, textarea {
+    background-color: #f6f5f5;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #0c0c0c;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: rgb(4, 4, 4);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #060606;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+    </style>
+</head>
+<body> 
+    
+        <nav>
+<DIv CLASS="LEFT"> kundan's portfolio</DIv>
+<div class="RIGHT">
+    <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/">About me</a></li>
+    <li><a href="/">Services</a></li>
+    <li><a href="/">Projects</a></li>
+    <li><a href="/">Contact me</a></li>
+    </ul>
+</div> 
+</nav>
+</header>
+<HEADER>
+
+</HEADER>
+<MAIN>
+    <Section class="first">
+        <DIV class="leftsection"> 
+            Hi, my name is <span class="purple">Kundan</span> 
+        <div> And I am  passionate </div>
+        <div> <span class="blue">Web Developer</span> </div>
+        <span id="element"></span>
+        </DIV>
+        <DIV class="rightsection">
+            <img src="2user.png" alt="picture" 
+            width= 80%;
+            margin=50px 0;>
+        </DIV>
+        
+
+    </Section>
+<!-------about-------->
+<div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpg" alt="">
+                </div>
+                <div class="ab0ut-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>
+                        Hi, I am Kundan Bobde and I work as a web developer. <br>I am a software engineer who loves to create websites as well as apps for people. <br>I think that people should look at the bigger picture  when they are building something. <br>I love to work in groups where everyone can voice their opinions and ideas.</p>
+                
+                <div class="tab-title">
+                    <p class="tab-link active-link">Skills</p>
+                    <p class="tab-link">Exprience</p>
+                    <p class="tab-link">Education</p>
+                </div>    </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+             
+<div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="map.webp" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">India</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+  
+</MAIN>
+<header>
+    
+ 
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer','Web Designer', 'Frontend Developer','Backend developer',
+    ],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
